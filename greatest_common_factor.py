@@ -65,7 +65,7 @@ def main():
 
         # In the event of an exception
         except Exception:
-            print("You must enter positive number!\n")
+            print("You must enter positive integer!\n")
 
         else:
             # Gets as many numbers wanted to input (total numbers)
@@ -78,7 +78,7 @@ def main():
 
                 # In the event of an exception
                 except Exception:
-                    print("You must enter a positive number!\n")
+                    print("You must enter a positive integer!\n")
                 else:
                     # IF the user inputted a negative number
                     if user_number <= 0:
